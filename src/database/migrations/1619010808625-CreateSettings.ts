@@ -1,5 +1,4 @@
 import { MigrationInterface, QueryRunner, Table } from "typeorm";
-import {query} from "express";
 
 export class CreateSettings1619010808625 implements MigrationInterface {
 
@@ -23,7 +22,7 @@ export class CreateSettings1619010808625 implements MigrationInterface {
                         default: true
                     },
                     {
-                        name: "updatet_at",
+                        name: "updated_at",
                         type: "timestamp",
                         default: "now()"
                     },
