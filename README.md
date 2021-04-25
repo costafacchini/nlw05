@@ -22,3 +22,9 @@ The page will reload if you make edits.
 [Node.js](https://nodejs.org/en/) \
 [Mustache](https://mustache.github.io/)
 
+## Developments
+
+[ESLint](https://eslint.org/) \
+Change SQLite to PostgreSQL + [Docker](https://www.docker.com/) \
+Unitary tests \
+Integration Tests
